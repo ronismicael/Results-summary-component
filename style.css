@@ -38,7 +38,6 @@ main {
 
 .container {
     margin-top: 20px;
-    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,24 +62,17 @@ section {
     border-radius: 0px 40px 40px 0px;
 }
 
-#titulo2{
-   text-align: left;
-   padding-top: 40px;
-   margin-left: 40px;
-
-}
 
 #titulo1 {
     padding-top: 40px;
-    font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 300;
     opacity: 0.7;
 }
 
 .number {
-    
     width: 190px;
     height: 190px;
+
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -92,26 +84,30 @@ section {
 }
 
 h3 {
-    font-family: 'Hanken Grotesk', sans-serif;
     font-size: 4.0em;
     font-weight: bolder;
 }
 
 .meio {
     line-height: 30px;
-    padding-top: 40px;
-    position: relative;
-    top: 20%;
+    padding-top: 70px;
 }
 
+#titulo2{
+    opacity: 0.8;
+    text-align: left;
+    padding-top: 40px;
+    margin-left: 40px;
+ }
+ 
+
 #baixo>h2 {
-    font-family: 'Hanken Grotesk';
     font-size: 2.0em;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #baixo {
-    text-align: center;
     width: 250px;
     position: relative;
     left: 50%;
@@ -119,7 +115,79 @@ h3 {
     padding-top: 30px;
 }
 
-.sim{
- display: flex;
+.dados-box2{
+    padding-top: 15px;
+    font-weight: 800;
+}
+
+.bloco-yellow, .blocos-gren{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 40px;
+    margin-top: 17px;
+    
+    
+    border-radius: 10px;
+    width: 270px;
+    height: 56px;
+    
+    background-color: hsla(39, 100%, 56%, 0.062);;
+}
+
+.blocos-gren{
+    background-color: hsla(166, 100%, 37%, 0.062);
+}
+
+
+
+#red{
+    color: var(--var05);
+}
+
+#yellow{
+    color: var(--var06);
+}
+
+#gren{
+    margin-right: 15px;
+    color: var(--var07);
+}
+
+#blue{
+    margin-right: 15px;
+    color: var(--var08);
+}
+
+h4, img{
+    text-align: left;
+    opacity: 0.8;
+    position: relative;
+    right: 20%;
+    margin-left: 8px;
+}
+
+.bloco-yellow>p{
+    position: relative;
+    left: 45px;
+}
+
+.blocos-gren>p{
+    position: relative;
+    left: 45px;
+}
+
+button{
+    width: 287px;
+    height: 60px;
+    margin-top: 40px;
+
+    font-size: 18px;
+    color: var(--var11);
+
+    border-radius: 50px;
+    border: none;
+    background-color: var(--var09);
 }
 

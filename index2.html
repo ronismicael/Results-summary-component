@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,77 +9,86 @@
     <title>Results summary component</title>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <main>
+    <main class="container">
+        <section id="box1">
+            <h1 id="titulo1">
+                Your Result
+            </h1>
+            <div class="number">
+                <div class="meio">
 
-        <div class="container">
+                    <h3>
+                        76
+                    </h3>
 
-            <section id="box1">
-                <div class="interior-box">
-                    <h1 id="titulo1">
-                        Your Result
-                    </h1>
-                    
-                    <div class="number">
-                        <div class="meio">
-                            
-                            <h3>
-                               76
-                            </h3>
-                                                
-                            <p class="box-p">
-                                of 100
-                            </p>
-                        </div>
-                    </div>
-
-                    <div  id="baixo">
-                        <h2>
-                            Great
-                        </h2>
-                        <p class="box-p">
-                            You scored higher than 65% of the people who have taken these tests.
-                        </p>
-                    </div>
-                    
+                    <p class="box-p">
+                        of 100
+                    </p>
                 </div>
-                
-            </section>
+            </div>
 
-            <section id="box2">
-                <div class="interior-box2">
-                    <h1 id="titulo2">
-                        Summary
-                    </h1>
-                    <div class="dados-box2">
+            <div id="baixo">
+                <h2>
+                    Great
+                </h2>
+                <p class="box-p">
+                    You scored higher than 65% of the people who have taken these tests.
+                </p>
+            </div>
+        </section>
 
-                             <div class="sim">
-                                 <img src="./images/icon-reaction.svg" alt="">
-                                 <h4 id="red">Reaction</h4>
-                                 <p>80/100</p>
-                             </div>
-                             
-                             <img src="./images/icon-memory.svg" alt="">
-                             <h4 id="yellow">Memory</h4>
-                             <p>92/100</p>
+        <section id="box2">
+            <h1 id="titulo2">
+                Summary
+            </h1>
+            <div class="dados-box2">
 
-                             <img src="./images/icon-verbal.svg" alt="">
-                             <h4 id="gren">Verbal</h4>
-                             <p>61/100</p>
+                <div class="bloco-yellow">
+                            <img src=" ./images/icon-reaction.svg" alt="">
 
-                             <img src="./images/icon-visual.svg" alt="">    
-                             <h4 id="blue">Visual</h4>
-                             <p>72/100</p>
-                    </div>
+                    <h4 id="red">Reaction</h4>
 
-                    <button>
-                        Continue
-                    </button>
+                    <p>80/<span style="opacity: 0.8;">100</span></p>
                 </div>
-            </section>
+
+
+                <div class="bloco-yellow">
+                    <img src="./images/icon-memory.svg" alt="">
+
+                    <h4 id="yellow">Memory</h4>
+
+                    <p>92/<span style="opacity: 0.8;">100</span></p>
+                </div>
+
+
+                <div class="blocos-gren">
+                    <img src="./images/icon-verbal.svg" alt="">
+
+                    <h4 id="gren">Verbal</h4>
+
+                    <p>61/<span style="opacity: 0.8;">100</span></p>
+                </div>
+
+                <div class="blocos-gren">
+                    <img src="./images/icon-visual.svg" alt="">
+
+                    <h4 id="blue">Visual</h4>
+
+                    <p>72/<span style="opacity: 0.8;">100</span style="opacity: 0.8;"></p>
+
+                </div>
+            </div>
+
+            <button>
+                Continue
+            </button>
+        </section>
 
         </div>
 
     </main>
 </body>
+
 </html>
