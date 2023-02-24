@@ -1,28 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Results summary component</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <main class="container">
+        <section id="box1">
+            <h1 id="titulo1">
+                Your Result
+            </h1>
+            <div class="number">
+                <div class="meio">
+
+                    <h3>
+                        76
+                    </h3>
+
+                    <p class="box-p">
+                        of 100
+                    </p>
+                </div>
+            </div>
+
+            <div id="baixo">
+                <h2>
+                    Great
+                </h2>
+                <p class="box-p">
+                    You scored higher than 65% of the people who have taken these tests.
+                </p>
+            </div>
+        </section>
+
+        <section id="box2">
+            <h1 id="titulo2">
+                Summary
+            </h1>
+            <div class="dados-box2">
+
+                <div class="bloco-yellow">
+                            <img src=" ./images/icon-reaction.svg" alt="">
+
+                    <h4 id="red">Reaction</h4>
+
+                    <p>80/<span style="opacity: 0.8;">100</span></p>
+                </div>
 
 
+                <div class="bloco-yellow">
+                    <img src="./images/icon-memory.svg" alt="">
+
+                    <h4 id="yellow">Memory</h4>
+
+                    <p>92/<span style="opacity: 0.8;">100</span></p>
+                </div>
 
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+                <div class="blocos-gren">
+                    <img src="./images/icon-verbal.svg" alt="">
+
+                    <h4 id="gren">Verbal</h4>
+
+                    <p>61/<span style="opacity: 0.8;">100</span></p>
+                </div>
+
+                <div class="blocos-gren">
+                    <img src="./images/icon-visual.svg" alt="">
+
+                    <h4 id="blue">Visual</h4>
+
+                    <p>72/<span style="opacity: 0.8;">100</span style="opacity: 0.8;"></p>
+
+                </div>
+            </div>
+
+            <button>
+                Continue
+            </button>
+        </section>
+
+        </div>
+
+    </main>
 </body>
+
 </html>
